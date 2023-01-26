@@ -36,7 +36,7 @@ function Login() {
         },
         validationSchema: yup.object({
             email: yup.string().required('Required Field'),
-            password: yup.string().required('Required Field').length(8, 'Must be at least 8 characters')
+            password: yup.string().required('Required Field'),
         })
     })
   
