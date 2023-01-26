@@ -47,7 +47,7 @@ function FormikForm() {
             lastname: yup.string().required('Required Field'),
             email: yup.string().required('Required Field'),
             username: yup.string().required('Required Field'),
-            password: yup.string().required('Required Field').length(8, 'Must be at least 8 characters')
+            password: yup.string().required('Required Field').length(7, 'Must be at least 8 characters')
         })
     })
     console.log(formik.touched)
