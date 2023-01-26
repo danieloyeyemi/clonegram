@@ -1,0 +1,83 @@
+body{
+    height: 100%;
+}
+.sign{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    justify-content: center;
+    height: 50px;
+}
+
+.pic3{
+    margin-left: 2px;
+    height: 90px;
+    
+}
+.pic2{
+    /* width: 90px; */
+    height: 40px;
+}
+#hom{
+    width: 30px;
+    height: auto;
+}
+video{
+    width: 200px;
+    height: auto;
+}
+#don{
+    text-align: center;
+    /* border: 2px solid red; */
+}
+.get{
+    text-align: center;
+}
+.justify{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+}
+#text{
+    margin-left: 100px;
+}
+#head{
+    width: 50px;
+    border-radius: 50px;
+}
+#cardpic{
+    height: 350px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.pict{
+    margin-left: -150px;
+}
+.pic{
+    margin-left: -150px;
+}
+.dl{
+    text-decoration: none;
+}
+.time{
+    margin-top: -3px;
+}
+.name{
+    margin-top: -5px;
+}
+#cont{
+    margin: 2px soliod red;
+}
+.sup{
+    /* font-weight: 900; */
+    /* font-size: larger; */
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+
+
+}
