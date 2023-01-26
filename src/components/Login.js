@@ -12,7 +12,7 @@ import axios from 'axios'
 import { useNavigate } from "react-router-dom";
 import bootstrap from 'bootstrap'
 function Login() {
-    const url = `https://davaserver022.onrender.com/users/`
+    const url = `https://davaserver022.onrender.com/users/login`
     const [message, setmessage]=useState("")
     const navigate = useNavigate()
     const formik = useFormik({
